@@ -41,6 +41,6 @@ We have provided 5 "Hello World" examples to demonstrate the difference between 
 * [**Hello Topology**](hello_topology.md) - Exact closure vs. Riemann sums.
 * [**Hello Viewport**](hello_viewport.md) - Stop indexing. Start projecting.
 * [**Hello Pointer**](hello_pointer.md) - typedef void* Universe_t;
-* [**Universe's Header**](universe.h) - The universe's header
+* [**universe.h**](universe.h) - The Standard Library for the universe
 
 **[View the Interactive Gallery](examples.md)**
