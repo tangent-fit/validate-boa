@@ -39,5 +39,6 @@ We have provided 5 "Hello World" examples to demonstrate the difference between 
 * [**Hello Multiverse**](hello_multiverse.md) - Solving the curse of dimensionality.
 * [**Hello Vacuum**](hello_vacuum.md) - Why QFT fails and BOA succeeds.
 * [**Hello Topology**](hello_topology.md) - Exact closure vs. Riemann sums.
+* [**Hello Viewport**](hello_viewport.md) - Stop indexing. Start projecting.
 
 **[View the Interactive Gallery](examples.md)**
