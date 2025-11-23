@@ -33,5 +33,5 @@ Stop indexing. Start projecting.
 A navigation component that renders a dataset of 1 Quadrillion items with the same performance cost as a list of 10 items. No buffering. No loading states. Just math.
 
 ### 📐 [For Systems Programmers](hello_pointer.c)
-Stop indexing. Start projecting.
-A navigation component that renders a dataset of 1 Quadrillion items with the same performance cost as a list of 10 items. No buffering. No loading states. Just math.
+typedef void* Universe_t;
+Stop iterating
