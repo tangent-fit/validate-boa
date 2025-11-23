@@ -41,6 +41,6 @@ We provide standalone scripts in JavaScript, Python, C++, and C to verify these 
 * [**Hello Topology**](hello_topology.md) - Exact closure vs. Riemann sums.
 * [**Hello Viewport**](hello_viewport.md) - Stop indexing. Start projecting.
 * [**Hello Pointer**](hello_pointer.c) - typedef void* Universe_t;
-* [**universe.h**](universe.h) - The Standard Library for the universe
+* [**universe.h**](universe.h) - The standard library for the universe
 
 **[View the Interactive Gallery](examples.md)**
