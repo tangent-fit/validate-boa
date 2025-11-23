@@ -27,3 +27,7 @@ Why Quantum Field Theory fails by summing modes (Iteration), and how BOA succeed
 ### 📐 [For Mathematicians: Hello Topology](hello_topology.md)
 **Exact Closure.**
 The failure of Riemann Sums. How to achieve perfect topological closure on a discrete manifold without infinite limits.
+
+### 📐 [The Infinite Viewport](hello_viewport.md)
+Stop indexing. Start projecting.
+A navigation component that renders a dataset of 1 Quadrillion items with the same performance cost as a list of 10 items. No buffering. No loading states. Just math.
