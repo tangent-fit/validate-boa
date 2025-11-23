@@ -32,7 +32,7 @@ We provide standalone scripts in JavaScript, Python, C++, and C to verify these 
 
 ## Educational Examples
 
-We have provided 5 "Hello World" examples to demonstrate the difference between Iteration (Loops) and Projection (BOA):
+"Hello World" examples to demonstrate the difference between Iteration (Loops) and Projection (BOA):
 
 * [**Hello Universe**](hello_universe.md) - Why loops are an admission of ignorance.
 * [**Hello Infinity**](hello_infinity.md) - For young minds (The Ant vs. The Owl).
