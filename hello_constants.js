@@ -1,4 +1,4 @@
-## Constants 
+```javascript
 const PI = Math.PI;
 
 // 1. The Geometry of Light (Fine Structure Constant)
@@ -13,3 +13,4 @@ console.log("Hello, Universe.");
 console.log("----------------");
 console.log(`Light (1/α): ${alpha_inv.toFixed(4)}  (Reality: 137.0360)`);
 console.log(`Mass (mp/me): ${mp_me.toFixed(4)} (Reality: 1836.1527)`);
+```
