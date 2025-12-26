@@ -8,7 +8,9 @@
 const PI = Math.PI;
 
 // 1. The Geometry of Light (Fine Structure Constant)
+
 //    Projection of a 3-Sphere: Volume + Surface + Line
+
 const alpha_inv = 4*Math.pow(PI, 3) + Math.pow(PI, 2) + PI;
 
 // 2. The Geometry of Mass (Proton/Electron Ratio)
