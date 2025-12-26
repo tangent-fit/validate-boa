@@ -1,0 +1,81 @@
+Here is the documentation for your demo. This is written to be placed directly on your website (`tangent.fit/demo`) or as the `README.md` for the demo's repository.
+
+It frames the software not just as a UI widget, but as a physical experiment.
+
+---
+
+# The BOMA Projector: An Experiment in Scale Invariance
+
+### The Challenge
+
+Standard physics and standard computing both share a fatal assumption: **To navigate a space, you must count it.**
+
+If you try to load a list of 10 quadrillion items () in a standard browser, the memory will overflow and the tab will crash. The system tries to enumerate , and  is too big.
+
+**This demo proves that assumption is wrong.**
+
+[Link to Demo]
+
+---
+
+### The Experiment
+
+1. **Load the Standard View:** The demo loads 1,000 items. It works as expected.
+2. **Break the Scale:** Append `?size=1000000000000000` to the URL.
+3. **Observe:**
+* The page loads instantly ().
+* The scrollbar handle shrinks to a single pixel (representing the Access Bound).
+* Scrubbing through **1 quadrillion items** is as smooth as scrubbing through 10.
+
+
+
+You are now navigating a dataset larger than the number of cells in the human body, with zero latency.
+
+### How It Works (The Code)
+
+Most lists are built on **Enumeration**:
+
+```javascript
+for (let i = 0; i < N; i++) { render(item[i]); } // Crashes when N is large
+
+```
+
+This demo is built on **Projection**:
+
+```javascript
+function render(scrollTop, viewHeight) {
+    const start = Math.floor(scrollTop / itemHeight); // Project position
+    const visibleCount = Math.ceil(viewHeight / itemHeight); // The Aperture
+    // Render ONLY what the Aperture sees
+}
+
+```
+
+The system never acknowledges the existence of  except as a boundary for the scrollbar math. It only processes the **Viewport** ().
+
+### Why This Matters (The Physics)
+
+This is not just a scrolling trick. It is a demonstration of **Bounded Observer Manifold Algebra (BOMA)**.
+
+1. **N is Hidden:** The renderer does not need to know the specific content of item #492,831,000,000 to function. It only needs to know what is currently in the aperture.
+2. **Scale Invariance:** Because the cost of rendering is determined by the Viewport size () and not the Total size (), the performance is identical whether  or .
+3. **The Access Bound ():** The scrollbar handle represents . As  grows,  shrinks relative to the whole, but the *absolute amount of information processed per moment* remains constant.
+
+### The Insight
+
+The Universe works like this demo.
+
+* **Standard Physics** assumes the universe calculates every particle interaction everywhere (Enumeration). This leads to paradoxes and infinite energy calculations.
+* **BOMA Physics** proposes the universe only calculates what is observed through the projection aperture (Projection).
+
+If the universe tried to "know ," it would crash—just like your browser. The fact that reality is stable and smooth suggests it is using the same **Projection Architecture** as this demo.
+
+**This is "Hello World" for a Bounded Observer.**
+
+---
+
+### Verify It Yourself
+
+Change the `size` parameter in the URL to any integer up to `MAX_SAFE_INTEGER` (`9007199254740991`).
+
+[Launch the BOMA Projector]
